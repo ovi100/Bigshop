@@ -1,6 +1,6 @@
-/*------------------------------------
+ /*------------------------------------
  *Author:MD ABU SAYED
- *Template:Blog Theme 3
+ *Template:Bigshop
  *Version:1.0
  *-------------------------------------
  */
@@ -55,9 +55,6 @@ $(document).ready(function(){
 
     // End Home Slider Js
 
-    // Search Click Event
-
-    // Search Click Event
 
 });
 
