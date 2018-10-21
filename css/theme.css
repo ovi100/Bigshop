@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ html {
 body {
   background: #fff;
   color: #333;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Work Sans", sans-serif; }
 
 ul li {
   list-style: none; }
@@ -45,8 +45,8 @@ a {
   vertical-align: middle; }
 
 .btn-fill {
-  background: #41a30d;
-  border: 2px solid #41a30d;
+  background: #6B4D96;
+  border: 2px solid #6B4D96;
   color: #fff; }
   .btn-fill:hover {
     background: #000;
@@ -80,12 +80,101 @@ a {
   margin: 0 auto; }
 
 .tcolor {
-  color: #41a30d !important; }
+  color: #6B4D96 !important; }
+
+.top-header .alert {
+  background: #232222;
+  border-radius: 0;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center; }
+  .top-header .alert button {
+    text-shadow: none; }
+    .top-header .alert button:focus, .top-header .alert button:hover {
+      color: #fff !important;
+      outline: 0; }
 
 .header {
-  background: #fff; }
+  height: 80px;
+  background: #fff;
+  line-height: 75px; }
+  .header .mbl-menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 28px; }
+    .header .mbl-menu span {
+      width: 25px;
+      height: 1px;
+      background: #736b6b;
+      display: block;
+      margin-top: 5px; }
+    .header .mbl-menu span:nth-child(2) {
+      width: 20px; }
+    .header .mbl-menu span:nth-child(4) {
+      width: 15px; }
+  .header .menu {
+    margin-right: -115px;
+    text-align: right; }
+    .header .menu ul li {
+      display: inline-block;
+      margin: 0 10px; }
+      .header .menu ul li a {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize; }
+        .header .menu ul li a:hover {
+          opacity: 0.7;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+          filter: alpha(opacity=70);
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+  .header .menu-icon ul li {
+    display: inline-block;
+    margin: 0 10px; }
+    .header .menu-icon ul li span {
+      display: block;
+      background: #000;
+      width: 1px;
+      height: 15px;
+      position: relative;
+      top: 4px; }
+    .header .menu-icon ul li label {
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: 40px;
+      right: 18px;
+      background: #6B4D96;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      background-clip: padding-box;
+      color: #fff;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center; }
 
 /* CSS For Home Slider Section */
+.home-slider .carousel-indicators .active {
+  width: 15px; }
+.home-slider .carousel-control-prev span, .home-slider .carousel-control-next span {
+  font-weight: 600;
+  visibility: hidden; }
+.home-slider:hover .carousel-control-prev span, .home-slider:hover .carousel-control-next span {
+  visibility: visible;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
+
 /* CSS For Blog Post Section */
 @-webkit-keyframes pulse {
   0% {
@@ -164,7 +253,7 @@ a {
     -ms-transform: scale(1);
     transform: scale(1); } }
 .footer {
-  background: #000;
+  background: #262626;
   color: #fff;
   padding-top: 20px;
   text-align: center; }
@@ -192,6 +281,6 @@ a {
     font-weight: 400;
     text-transform: capitalize; }
     .footer p a {
-      color: #41a30d; }
+      color: #6B4D96; }
 
 /*# sourceMappingURL=theme.css.map */

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Big Shop</title>
+	<title>Storrea Light</title>
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,38 +23,54 @@
 			
 	<!-- Start Header Section -->
 	<div class="top-header">
-		<div class="content">
-			<div class="row">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="logo">
-						<a href="index.html">
-							<img class="img-fluid" src="https://placeholdit.co//i/226x49?&bg=ddd&text=Your Logo 226x49&fc=000">
-						</a>
-					</div>
+		<div class="alert alert-dismissible">
+		  	<button type="button" class="close" data-dismiss="alert">
+		  		<i class="icofont-close-line"></i>
+		  	</button>
+		  	20% off in bkash payment
+		</div>
+	</div>
+	<div class="header px-4">
+		<div class="row">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-12">
+				<div class="logo">
+					<a href="/">
+						<img class="img-fluid" src="http://placehold.jp/26/fff/989898/170x70.png?text=Logo%20170%20x%2070">
+					</a>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="top-right-link d-inline-flex">
-						<div class="top-header-cart float-lg-right d-flex">
-							<div class="icofont-basket"></div>
-							<div class="cart-text">
-								<h6>shopping cart</h6>
-								<p>
-									<span>1</span> item(s)-$150
-								</p>
-							</div>
+			</div>
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-9 col-12">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-2">
+						<div class="d-block d-md-none mbl-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
 						</div>
-						<div class="top-header-link">
+						<div class="menu">
+							<ul class="d-md-block d-sm-none d-none">
+								<li><a href="">home</a></li>
+								<li><a href="">shop</a></li>
+								<li><a href="">product</a></li>
+								<li><a href="">catagory</a></li>
+								<li><a href="">condition</a></li>
+								<li><a href="">contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10">
+						<div class="menu-icon float-right">
 							<ul>
+								<li><span></span></li>
+								<li><a href=""><img src="images/icons/search.png"></a></li>
+								<li><a href=""><img src="images/icons/user.png"></a></li>
+								<li><a href=""><img src="images/icons/currency.png"></a></li>
 								<li>
-									<a 56Z>
-										<i class="icofont-dollar"></i>
-										Currency <i class="icofont-thin-down"></i>
+									<a href="">
+										<img src="images/icons/sbag.png">
+										<label>2</label>
 									</a>
-									<ul id="currency">
-										<li><a href="">euro</a></li>
-										<li><a href="">pound</a></li>
-										<li><a href="">dollar</a></li>
-									</ul>
 								</li>
 							</ul>
 						</div>
@@ -63,64 +79,48 @@
 			</div>
 		</div>
 	</div>
-	<div class="header">
-		<div class="content">
-			<div class="menu">
-				<nav class="navbar navbar-expand-md">
-
-				  <!-- Toggler/collapsibe Button -->
-			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu">
-					    <!-- <span class="icofont-navigation-menu"></span> -->
-					    <span class="mt-0"></span>
-					    <span></span>
-					    <span></span>
-				  	</button>
-
-				  <!-- Navbar links -->
-				  	<div class="collapse navbar-collapse" id="mainMenu">
-					    <ul class="navbar-nav mx-auto">
-				      		<li class="nav-item">
-						        <a class="nav-link active" href="index.html">home</a>
-					      	</li>
-					      	<li class="nav-item">
-						        <a class="nav-link" href="about.html">about</a>
-					      	</li>
-					      	<li class="nav-item">
-			                    <a class="nav-link" href="tag.html">tags</a>
-			                </li>
-			                <li class="nav-item">
-			                    <a class="nav-link search" data-toggle="modal" data-target="#search">
-			                    	<i class="icofont-ui-search"></i>
-			                    </a>
-
-			                    <!-- Search Modal -->
-								<div class="modal fade" id="search">
-								  <div class="modal-dialog modal-lg">
-								    <div class="modal-content">
-
-									    <!-- Modal body -->
-									    <div class="modal-body pt-5">
-									        <div class="input-group">
-											  	<input type="text" class="form-control" placeholder="Type text and click search icon......">
-												<div class="input-group-append">
-												    <button class="btn" type="submit"><i class="icofont-search-1"></i></button> 
-												</div>
-											</div>
-									    </div>
-								    </div>
-								  </div>
-								</div>
-			                </li> 
-					    </ul>
-				  	</div> 
-				</nav>
-			</div>
-		</div>
-	</div>
 
 	<!-- End Header Section -->
 
 	<!-- Start Home Slider Section-->
+	<div id="hslider" class="home-slider carousel slide mb-4" data-ride="carousel">
+		<ul class="carousel-indicators">
+		    <li data-target="#hslider" data-slide-to="0" class="active"></li>
+		    <li data-target="#hslider" data-slide-to="1"></li>
+		    <li data-target="#hslider" data-slide-to="2"></li>
+	  	</ul>
+
+	  	<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      	<img class="img-fluid" src="http://placehold.jp/1920x730.png">
+		      	<div class="carousel-caption">
+		        	<h3>Do sint ut</h3>
+		        	<p>aliquip sit fugiat ullamco ex in adipisicing.</p>
+		      	</div>   
+		    </div>
+		    <div class="carousel-item">
+		      	<img class="img-fluid" src="http://placehold.jp/1920x730.png">
+		      	<div class="carousel-caption">
+		        	<h3>Do sint ut</h3>
+		        	<p>aliquip sit fugiat ullamco ex in adipisicing.</p>
+		      	</div>   
+		    </div>
+		    <div class="carousel-item">
+		      	<img class="img-fluid" src="http://placehold.jp/1920x730.png">
+		      	<div class="carousel-caption">
+		        	<h3>Do sint ut</h3>
+		        	<p>aliquip sit fugiat ullamco ex in adipisicing.</p>
+		      	</div>   
+		    </div>
+	  	</div>
+
+	  	<a class="carousel-control-prev" href="#hslider" data-slide="prev">
+	    	<span class="icofont-thin-left icofont-3x"></span>
+	  	</a>
+	  	<a class="carousel-control-next" href="#hslider" data-slide="next">
+	    	<span class="icofont-thin-right icofont-3x"></span>
+	  	</a>
+	</div>
 	<!-- End Home Slider Section -->
 
 	<!-- Start Newsletter Section -->
@@ -128,7 +128,7 @@
 	<!-- End Newsletter Section -->
 
 	<!-- Start Footer Section -->
-	<div class="footer py-5">
+	<!-- <div class="footer py-5">
 		<div class="social my-4">
 			<a href=""><i class="icofont-facebook"></i></a>
 			<a href=""><i class="icofont-twitter"></i></a>
@@ -137,7 +137,7 @@
 			<a href=""><i class="icofont-google-plus"></i></a>
 		</div>
 		<p>&copy 2018.powered by <a href="">storrea</a></p>
-	</div>
+	</div> -->
 	<!-- End Footer Section -->
 
 
@@ -157,3 +157,6 @@
 	<!-- End of All JavaScript Library -->
 </body>
 </html>
+
+
+
